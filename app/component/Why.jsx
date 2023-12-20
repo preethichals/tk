@@ -61,7 +61,7 @@ function Why() {
         </div>
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-400  sm:mt-8 sm:pt-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {posts.map((post) => (
-            <article key={post.id} className=" poppins flex font-sans  group-hover:text-white max-w-xl bg-white group text-gray-700 py-12 px-8 rounded-xl flex-col items-start justify-between hover:bg-gradient-to-l from-sky-600 to-blue-800">
+            <article key={post.id} className=" poppins flex shadow-xl font-sans  group-hover:text-white max-w-xl bg-white group text-gray-700 py-12 px-8 rounded-xl flex-col items-start justify-between hover:bg-gradient-to-l from-sky-600 to-blue-800">
              
               <div className="  group-hover:text-white group relative text-gray-900 ">
                 <h3 className=" text-xl font-medium tracking-wider  ">
